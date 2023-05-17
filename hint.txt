@@ -1,0 +1,41 @@
+
+"""""""""""" Hour Hand """"""""""""""""""""""""""
+
+rotate 12 hour = 360 deg.
+    rotate  1   hour    = 360 / 12 deg.
+                        = 30deg.
+            2   hour    = 30*2 deg.
+                        = 60deg.
+            H   hour    = 30*H deg.
+                        = 30H
+
+    rotate  60  minute  = 30deg.
+            1   minute  = 30/60 deg.
+                        = 1/2deg.
+            2   minute  = 1/2*2 deg.
+                        = 1deg.
+            M   minute  = 1/2*M deg.
+                        = M/2 deg.
+
+Hour Formula = (30H+M/2)deg.
+
+"""""""""""""""" Minutes Hand """""""""""""""""""""
+
+rotate 60 minutes = 360deg.
+       1 minute = 360 / 60 deg.
+                = 6deg.
+       2 minutes = 2*6 deg
+                = 12deg
+       M minutes = 6*M deg.
+                 =  6M deg 
+
+
+"""""""""""""""" Second Hand """""""""""""""""""""
+
+rotate 60 Second = 360deg.
+       1 Second = 360 / 60 deg.
+                = 6deg.
+       2 Second = 2*6 deg
+                = 12deg
+       S Second = 6*S deg.
+                 =  6S deg 
